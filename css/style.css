@@ -5,3 +5,73 @@
     background-size: 320px;
     background-position: top left;
 }
+
+body{
+    margin: 0px 180px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    padding: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#CellaNome{
+    background-color: rgb(70, 166, 251);
+    color: white;
+    
+}
+.CellaCeleste{
+    background-color: rgb(138, 238, 253);
+}
+
+table tr th{
+    text-align: left;
+    width: 10px;
+}
+
+h1{
+    font-size: 38px;
+    margin: 30px 0px 0px;
+}
+#writer{
+    font-size:18px;
+    color: rgba(0, 0, 0, 0.451);
+    margin: 1px 0px 0px;
+}
+#date{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.451);
+    margin: 1px 0px 20px;
+}
+#writer a{
+    color: rgb(71, 181, 254);
+    text-decoration: none;
+}
+#credits{
+    font-size: 12px;
+    margin: 1px;
+}
+h3{
+    color: rgba(0, 0, 0, 0.466);
+}
+
+#BloccoA{
+    background-image: url(../img/monitor.jpg);
+}
+#BloccoB{
+    background-image: url(../img/graph.jpg);
+}
+
+
+#BloccoA, #BloccoB{
+    background-position: center;
+    height: 210px;
+    width: 270px;
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+}
