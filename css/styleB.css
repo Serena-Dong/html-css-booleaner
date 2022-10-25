@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 header{
     background-color: rgba(0, 136, 255, 0.691);
     height: 100px;
@@ -6,8 +9,8 @@ header{
     background-size: 550px;
     background-position: top left;
     padding: 10;
-   
 }
+
 header img{
     max-width: 200px;
     max-width: auto;
