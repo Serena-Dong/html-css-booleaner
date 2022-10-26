@@ -18,7 +18,8 @@ body{
 }
 
 ul {
-    padding: 15px;
+    padding: 0;
+    list-style-position: inside;
 }
 
 table{
@@ -46,12 +47,10 @@ h1{
 }
 #writer{
     font-size:18px;
-    color: rgba(0, 0, 0, 0.451);
     margin: 1px 0px 0px;
 }
 #date{
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.451);
     margin: 1px 0px 20px;
 }
 #writer a{
@@ -62,7 +61,7 @@ h1{
     font-size: 12px;
     margin: 1px;
 }
-h3{
+.text-grey{
     color: rgba(0, 0, 0, 0.466);
 }
 
@@ -81,7 +80,4 @@ h3{
     color: white;
     font-size: 23px;
     padding: 10px;
-}
-span{ 
-    background-color: yellow;
 }
